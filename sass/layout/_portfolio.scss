@@ -16,12 +16,12 @@
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: calc(-1 * $item-list-gap);
-  margin-top: calc(-1 * $item-list-gap);
+  margin-left: calc(-1 * #{$item-list-gap});
+  margin-top: calc(-1 * #{$item-list-gap});
 }
 .portfolio-item {
   // width:370px;
-  flex-basis: calc(100% / 3 - $item-list-gap);
+  flex-basis: calc(100% / 3 - #{$item-list-gap});
   margin-left: $item-list-gap;
   margin-top: $item-list-gap;
 }
