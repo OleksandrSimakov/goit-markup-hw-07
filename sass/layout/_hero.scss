@@ -18,8 +18,8 @@
 .hero__title {
   width: 696px;
   margin: auto;
-  margin-bottom: var(--item-list-gap);
-  color: var(--primary-white-color);
+  margin-bottom: $item-list-gap;
+  color: $primary-white-color;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;

@@ -7,7 +7,7 @@
   flex-basis: calc(100% / 3);
 }
 .our-projects-list__item:not(:nth-child(3n)) {
-  margin-right: var(--item-list-gap);
+  margin-right: $item-list-gap;
 }
 // our-projects-headline
 .our-projects-list__headline {
@@ -15,7 +15,7 @@
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: var(--primary-white-color);
+  color: $primary-white-color;
   position: absolute;
   bottom: 0;
   background-color: rgba(47, 48, 58, 0.8);

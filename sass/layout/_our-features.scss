@@ -9,7 +9,7 @@
 
 // our-features section paragraph
 .our-features-list__paragraph {
-  color: var(--secondary-black-color);
+  color: $secondary-black-color;
   font-size: 14px;
   line-height: 1.71;
 }
@@ -28,9 +28,9 @@
 .our-features-list__icon {
   margin-bottom: 30px;
   padding: 25px 100px;
-  background-color: var(--secondary-background-color);
+  background-color: $secondary-background-color;
   border-radius: 4px;
 }
 .our-features-list__item:not(:last-child) {
-  margin-right: var(--item-list-gap);
+  margin-right: $item-list-gap;
 }
