@@ -1,15 +1,15 @@
-/* our-projects */
+// our-projects
 .our-projects-list {
   display: flex;
 }
 .our-projects-list__image {
-  /*   width: 370px; */
+  // width: 370px;
   flex-basis: calc(100% / 3);
 }
 .our-projects-list__item:not(:nth-child(3n)) {
   margin-right: var(--item-list-gap);
 }
-/* our-projects-headline */
+// our-projects-headline
 .our-projects-list__headline {
   font-weight: 700;
   font-size: 14px;

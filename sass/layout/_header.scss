@@ -1,4 +1,4 @@
-/* header */
+// header
 .header {
   border-bottom: 1px solid var(--header-border-color);
 }
@@ -40,7 +40,7 @@
   margin-right: 10px;
   fill: currentColor;
 }
-/* site-nav */
+// site-nav
 .site-nav__list .link {
   color: var(--primary-black-color);
   font-weight: 500;
@@ -69,7 +69,7 @@
   background-color: var(--accent-color);
   border-radius: 2px;
 }
-/* logo */
+// logo
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -83,7 +83,7 @@
 .header__logo {
   color: #000000;
 }
-/* footer logo */
+// footer logo
 .footer__logo {
   color: var(--primary-white-color);
 }
@@ -91,7 +91,7 @@
   color: var(--accent-color);
   margin-bottom: 20px;
 }
-/* header-address list */
+// header-address list
 .header-address__link {
   display: flex;
   align-items: center;

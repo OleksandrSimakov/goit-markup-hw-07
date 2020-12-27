@@ -1,11 +1,11 @@
-/* body */
+// body
 body {
   background-color: var(--primary-white-color);
   color: var(--primary-black-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
-/* h */
+// h
 h1,
 h2,
 h3,
@@ -14,23 +14,23 @@ h5,
 h6 {
   margin: 0;
 }
-/* p */
+// p
 p {
   margin: 0;
 }
-/* ul */
+// ul
 .list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-/* a */
+// a
 .link {
   display: block;
   text-decoration: none;
   font-style: normal;
 }
-/* img */
+// img
 .img-responsive {
   display: block;
 }
