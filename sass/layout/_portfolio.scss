@@ -30,14 +30,6 @@
   flex-basis: calc(100% / 3 - #{$item-list-gap});
   margin-left: $item-list-gap;
   margin-top: $item-list-gap;
-  &__link {
-    transition: $transition-time-and-function;
-    &:hover,
-    &:focus {
-      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
-        0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-    }
-  }
 }
 
 .portfolio-link {
@@ -62,5 +54,10 @@
     .portfolio-link:focus & {
       transform: translateY(0);
     }
+  }
+  &:hover,
+  &:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
   }
 }
